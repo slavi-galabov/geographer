@@ -1,0 +1,14 @@
+{
+    "name": "slavi-galabov/geographer-bg",
+    "type": "library",
+    "description": "Bulgarian translation for Geographer library",
+    "keywords": ["bulgarian", "geographer", "geolocation", "localization"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Slavi Galabov",
+            "email": "slavi.galabov@gmail.com",
+            "homepage": "https://slavi-galabov.github.io"
+        }
+    ]
+}
