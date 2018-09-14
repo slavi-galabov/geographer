@@ -15,6 +15,7 @@ use MenaraSolutions\Geographer\Services\Poliglottas\English;
 use MenaraSolutions\Geographer\Services\Poliglottas\Spanish;
 use MenaraSolutions\Geographer\Services\Poliglottas\Italian;
 use MenaraSolutions\Geographer\Services\Poliglottas\Ukrainian;
+use MenaraSolutions\Geographer\Services\Poliglottas\Bulgarian;
 
 /**
  * Class TranslationAgency
@@ -58,6 +59,7 @@ class TranslationAgency implements TranslationAgencyInterface
     const LANG_CHINESE = 'zh';
     const LANG_UKRAINIAN = 'uk';
     const LANG_GERMAN = 'de';
+	const LANG_BULGARIAN = 'bg';
 
     /**
      * Constants for available forms
@@ -80,6 +82,7 @@ class TranslationAgency implements TranslationAgencyInterface
         self::LANG_CHINESE => Mandarin::class,
         self::LANG_UKRAINIAN => Ukrainian::class,
         self::LANG_GERMAN => German::class,
+		self::LANG_BULGARIAN => German::class,
     ];
 
     /**
